@@ -35,16 +35,16 @@ export function InfoCard(props) {
 
             {/* 公告栏 */}
             <div>
-                <Announcement post={notice} style={{ color: 'white !important'}} />
+                <Announcement post={notice} style={{ color: 'black !important'}} />
             </div>
 
             <div className='flex justify-between'>
                 <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
                     {/* 两个社交按钮 */}
-                    <div className='bg-indigo-400 p-2 rounded-full  transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
+                    <div className='bg-[#ff69b4] p-2 rounded-full  transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
                     </div>
-                    <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
+                    <div className='bg-[#ff69b4] p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
                         <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-github text-xl' />
                         </Link>
                     </div>
