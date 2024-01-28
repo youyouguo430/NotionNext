@@ -35,7 +35,7 @@ export function InfoCard(props) {
 
             {/* 公告栏 */}
             <div>
-                <Announcement post={notice} style={{ color: 'white !important' }} />
+                <Announcement post={notice} style={{ color: 'white !important', backgroundColor: '#ff69b4 !important'}} />
             </div>
 
             <div className='flex justify-between'>
