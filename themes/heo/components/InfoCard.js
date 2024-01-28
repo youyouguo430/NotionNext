@@ -19,7 +19,7 @@ export function InfoCard(props) {
   // 在文章详情页特殊处理
   const isSlugPage = router.pathname.indexOf('/[prefix]') === 0
   return (
-        <Card className='bg-[#4f65f0] dark:bg-yellow-600 text-white flex flex-col w-72 overflow-hidden relative'>
+        <Card className='bg-[#ff69b4] dark:bg-yellow-600 text-white flex flex-col w-72 overflow-hidden relative'>
             {/* 信息卡牌第一行 */}
             <div className='flex justify-between'>
                 {/* 问候语 */}
@@ -35,7 +35,7 @@ export function InfoCard(props) {
 
             {/* 公告栏 */}
             <div>
-                <Announcement post={notice} style={{ color: 'white !important', backgroundColor: '#ff69b4 !important'}} />
+                <Announcement post={notice} style={{ color: 'white !important'}} />
             </div>
 
             <div className='flex justify-between'>
