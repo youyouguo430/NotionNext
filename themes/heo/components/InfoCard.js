@@ -19,7 +19,7 @@ export function InfoCard(props) {
   // 在文章详情页特殊处理
   const isSlugPage = router.pathname.indexOf('/[prefix]') === 0
   return (
-        <Card className='bg-[#ff69b4] dark:bg-yellow-600 text-white flex flex-col w-72 overflow-hidden relative'>
+        <Card className='bg-[#8c3837] dark:bg-yellow-600 text-white flex flex-col w-72 overflow-hidden relative'>
             {/* 信息卡牌第一行 */}
             <div className='flex justify-between'>
                 {/* 问候语 */}
@@ -35,16 +35,16 @@ export function InfoCard(props) {
 
             {/* 公告栏 */}
             <div>
-                <Announcement post={notice} style={{ color: 'black !important'}} />
+                <Announcement post={notice} style={{ color: 'white !important'}} />
             </div>
 
             <div className='flex justify-between'>
                 <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
                     {/* 两个社交按钮 */}
-                    <div className='bg-[#ff69b4] p-2 rounded-full  transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
+                    <div className='bg-[#b96a6f] p-2 rounded-full  transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
                     </div>
-                    <div className='bg-[#ff69b4] p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
+                    <div className='bg-[#b96a6f] p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
                         <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-github text-xl' />
                         </Link>
                     </div>
@@ -78,7 +78,7 @@ function GreetingsWords() {
  */
 function MoreButton() {
   return <Link href='/about'>
-        <div className={'group bg-indigo-400 dark:bg-yellow-500 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
+        <div className={'group bg-[#b96a6f] dark:bg-yellow-500 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
             <div className='font-bold'>了解更多</div>
         </div>
