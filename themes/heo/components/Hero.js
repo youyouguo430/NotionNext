@@ -198,7 +198,7 @@ function GroupMenu() {
       {/* 第三个标签在小屏上不显示 */}
       <Link
         href={siteConfig('HEO_HERO_CATEGORY_3', null, CONFIG)?.url}
-        className="group relative overflow-hidden bg-gradient-to-r from-teal-300 to-cyan-300 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in"
+        className="group relative overflow-hidden bg-gradient-to-r from-[#cd853f] to-[#f4a460] hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in"
       >
         <div className="font-bold text-lg pl-5 relative -mt-2">
           {siteConfig('HEO_HERO_CATEGORY_3', null, CONFIG)?.title}
