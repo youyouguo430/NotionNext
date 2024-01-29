@@ -68,8 +68,8 @@ const CONFIG = {
       title_1: 'Blossom',
       img_1: '/images/heo/blossom.webp',
       color_1: '#4e0e0f',
-      title_2: 'Principle',
-      img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
+      title_2: 'Bear',
+      img_2: '/images/heo/bear.webp',
       color_2: '#cd937f'
     },
     {
