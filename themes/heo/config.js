@@ -41,11 +41,11 @@ const CONFIG = {
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'AfterEffect',
+      title_1: 'Star',
       img_1: '/images/heo/star.webp',
       color_1: '#5a3822',
-      title_2: 'Sketch',
-      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      title_2: 'Music',
+      img_2: '/images/heo/music.webp',
       color_2: '#e9decb'
     },
     {
