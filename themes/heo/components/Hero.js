@@ -103,7 +103,7 @@ function Banner(props) {
         id="banner-cover"
         style={{ backdropFilter: 'blur(15px)' }}
         className={
-          'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
+          'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#8c3837] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
         }
       >
         <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
@@ -246,7 +246,7 @@ function TopGroup(props) {
                   alt={p?.title}
                   src={p?.pageCoverThumbnail || siteInfo?.pageCover}
                 />
-                <div className="group-hover:text-indigo-600 dark:group-hover:text-yellow-600 line-clamp-2 overflow-hidden m-2 font-semibold">
+                <div className="group-hover:text-[#8c3837] dark:group-hover:text-yellow-600 line-clamp-2 overflow-hidden m-2 font-semibold">
                   {p?.title}
                 </div>
                 {/* hover 悬浮的 ‘荐’ 字 */}
@@ -367,7 +367,7 @@ function TodayCard({ cRef, siteInfo }) {
             onClick={handleClickMore}
             className={`'${
               isCoverUp ? '' : 'hidden pointer-events-none '
-            } flex items-center px-3 h-10 justify-center bg-[#8c3837] hover:bg-[#4259efcb] transition-colors duration-100 rounded-3xl`}
+            } flex items-center px-3 h-10 justify-center bg-[#8c3837] hover:bg-[#b96a6f] transition-colors duration-100 rounded-3xl`}
           >
             <PlusSmall
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
