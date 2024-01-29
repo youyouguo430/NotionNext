@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到西西和歪歪的小站',url:'' },
-    { title: 'Welcome to CC and YY's website',url:'' }
+    { title: '欢迎来到西西和歪歪的小站' },
+    { title: ''Welcome to CC and YY's website''}
   ],
 
   // 英雄区左右侧组件颠倒位置
