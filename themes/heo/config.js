@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到西西和歪歪的博客', url: 'https://blog.tangly1024.com' },
-    { title: 'Welcome!', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到西西和歪歪的小站' },
+    { title: 'Welcome to CC and YY's website' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,9 +18,9 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '西西和歪歪',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '嘿嘿',
-  HEO_HERO_TITLE_5: '还没想好这里要放什么',
-  HEO_HERO_TITLE_LINK: '这里也没想好',
+  HEO_HERO_TITLE_4: '但愿我和你',
+  HEO_HERO_TITLE_5: '是一支唱不完的歌',
+  HEO_HERO_TITLE_LINK: '这里没想好',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
