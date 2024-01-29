@@ -173,7 +173,7 @@ function GroupMenu() {
     <div className="h-[165px] select-none xl:h-20 flex flex-col justify-between xl:space-y-0 xl:flex-row w-28 lg:w-48 xl:w-full xl:flex-nowrap xl:space-x-3">
       <Link
         href={siteConfig('HEO_HERO_CATEGORY_1', null, CONFIG)?.url}
-        className="group relative overflow-hidden bg-gradient-to-r from-[#5a3822] to-[#ffdab9] flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in"
+        className="group relative overflow-hidden bg-gradient-to-r from-[#7e312d] to-[#b76c6a] flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in"
       >
         <div className="font-bold lg:text-lg  pl-5 relative -mt-2">
           {siteConfig('HEO_HERO_CATEGORY_1', null, CONFIG)?.title}
