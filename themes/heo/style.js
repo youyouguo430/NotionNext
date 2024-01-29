@@ -8,7 +8,7 @@ const Style = () => {
   return (
     <style jsx global>{`
       body {
-        background-color: #ff69b4;//右侧滚动条的颜色
+        background-color: #f7f9fe;//右侧滚动条的颜色
         overflow-x: hidden;
       }
 
@@ -18,7 +18,7 @@ const Style = () => {
       }
 
       ::-webkit-scrollbar-thumb {
-        background: rgba(255, 192, 203, 0.4);
+        background: rgba(60, 60, 67, 0.4);
         border-radius: 8px;
         cursor: pointer;
       }
