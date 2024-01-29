@@ -52,8 +52,8 @@ const CONFIG = {
       title_1: 'Cat',
       img_1: '/images/heo/cat.webp',
       color_1: '#e9838f',
-      title_2: 'Photoshop',
-      img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
+      title_2: 'Paw',
+      img_2: '/images/heo/paw.webp',
       color_2: '#ad6a6b'
     },
     {
