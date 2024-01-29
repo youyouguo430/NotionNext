@@ -57,8 +57,8 @@ const CONFIG = {
       color_2: '#ad6a6b'
     },
     {
-      title_1: 'FinalCutPro',
-      img_1: '',
+      title_1: 'Chat',
+      img_1: '/images/heo/chat.webp',
       color_1: '#ece2d6',
       title_2: 'Python',
       img_2: '',
