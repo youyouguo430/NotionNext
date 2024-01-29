@@ -60,8 +60,8 @@ const CONFIG = {
       title_1: 'Chat',
       img_1: '/images/heo/chat.webp',
       color_1: '#ece2d6',
-      title_2: 'Python',
-      img_2: '',
+      title_2: 'Hand',
+      img_2: '/images/heo/hand.webp',
       color_2: '#a58e9e'
     },
     {
