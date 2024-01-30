@@ -73,8 +73,8 @@ const CONFIG = {
       color_2: '#cd937f'
     },
     {
-      title_1: 'illustrator',
-      img_1: '',
+      title_1: 'Lamb',
+      img_1: '/images/heo/lamb.webp',
       color_1: '#e5c3c1',
       title_2: 'CSS3',
       img_2: '',
