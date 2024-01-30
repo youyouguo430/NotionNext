@@ -81,7 +81,7 @@ const CONFIG = {
       color_2: '#b8373b'
     },
     {
-      title_1: 'Win',
+      title_1: 'Icecream',
       img_1: '',
       color_1: '#b4b4b4',
       title_2: 'HTML',
