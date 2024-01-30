@@ -82,7 +82,7 @@ const CONFIG = {
     },
     {
       title_1: 'Icecream',
-      img_1: '/images/heo/wand.webp',
+      img_1: '/images/heo/icecream.webp',
       color_1: '#b4b4b4',
       title_2: 'HTML',
       img_2: '/images/heo/202372b4d760fd8a497d442140c295655426070302.webp',
