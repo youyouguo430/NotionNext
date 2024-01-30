@@ -17,7 +17,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '西西和歪歪',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
+  HEO_HERO_TITLE_3: 'yoyo.COM',
   HEO_HERO_TITLE_4: '但愿我和你',
   HEO_HERO_TITLE_5: '是一支唱不完的歌',
   HEO_HERO_TITLE_LINK: '这里没想好',
