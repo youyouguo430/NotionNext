@@ -76,8 +76,8 @@ const CONFIG = {
       title_1: 'Lamb',
       img_1: '/images/heo/lamb.webp',
       color_1: '#e5c3c1',
-      title_2: 'CSS3',
-      img_2: '',
+      title_2: 'Wand',
+      img_2: '/images/heo/wand.webp',
       color_2: '#b8373b'
     },
     {
