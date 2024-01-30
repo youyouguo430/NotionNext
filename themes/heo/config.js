@@ -92,8 +92,8 @@ const CONFIG = {
       title_1: 'Tie',
       img_1: '/images/heo/tie.webp',
       color_1: '#9d5157',
-      title_2: 'Rhino',
-      img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
+      title_2: 'Fork',
+      img_2: '/images/heo/fork.webp',
       color_2: '#6f6185'
     }
   ],
