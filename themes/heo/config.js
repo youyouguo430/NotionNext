@@ -77,7 +77,7 @@ const CONFIG = {
       img_1: '/images/heo/lamb.webp',
       color_1: '#e5c3c1',
       title_2: 'Wand',
-      img_2: '/images/heo/wand.webp',
+      img_2: '/images/heo/balala.webp',
       color_2: '#b8373b'
     },
     {
